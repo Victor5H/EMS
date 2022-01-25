@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.diorama.diorama.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/ems"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+        <!-- <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="EMS"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        />-->
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="@drawable/logo" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/mainUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="50sp"
+            android:text="@string/user"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/mainResponder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="35sp"
+            android:layout_marginRight="50sp"
+            android:text="@string/responder"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/mainAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="35sp"
+            android:layout_marginRight="50sp"
+            android:text="@string/admin"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</RelativeLayout>

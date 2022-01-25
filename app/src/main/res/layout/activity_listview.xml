@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#138D75"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="#FFF"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/idInc"
+                    android:gravity="center"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/userName"
+                    android:text="user Name"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/conditionList"
+                    android:text="Minar Injury"
+                    android:textColor="#FFF"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dateCurrent"
+                    android:text="10-10-2018 20:50:50"
+                    android:textColor="#FFF"
+                    android:gravity="center"
+                    android:layout_weight="0.9"
+                    />
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/approxTimec"
+                    android:text="10-10-2018 20:50:50"
+                    android:textColor="#FFF"
+                    android:gravity="center"
+                    android:layout_weight="0.9"
+                    />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

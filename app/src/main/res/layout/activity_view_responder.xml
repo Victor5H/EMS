@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backgr"
+    tools:context="com.diorama.diorama.ViewResponder">
+
+    <!--<android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="EMS"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        />-->
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="@drawable/logo"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/respView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/viewpen"
+            android:textColor="@color/colorBlack"
+
+            android:textSize="15sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/approveRes"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/approvreq"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FC9120"
+        android:padding="5dp"
+        android:gravity="center"
+        android:id="@+id/viewLable"
+        >
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.15"
+            android:gravity="center"
+            android:text="@string/id"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:gravity="center"
+            android:text="@string/usname"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:gravity="center"
+            android:text="@string/resname"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/injty"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/status"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/userlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/colorBlack"
+            android:dividerHeight="1dp"
+            android:visibility="gone"></ListView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/approveList"
+            android:dividerHeight="1dp"
+            android:visibility="gone"
+            android:divider="@color/colorBlack"
+            ></ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backgr"
+    tools:context=".UserView">
+
+    <!--<android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="EMS"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        />-->
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="@drawable/logo"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="View Registered User"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80sp"
+    android:layout_marginTop="10sp"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/searchtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="@string/usname"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/sub_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sub"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/backHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10sp"
+        >
+        <!--<ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+          -->  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+             <!--   <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                   <TableRow
+                       android:layout_height="wrap_content"
+                       android:layout_width="match_parent"
+                       >
+                       <android.support.v7.widget.AppCompatTextView
+                           android:layout_height="wrap_content"
+                           android:layout_width="match_parent"
+                           android:text="Name"
+                           android:textColor="@color/colorAccent"
+                           android:textSize="15sp"
+                           android:textStyle="bold"
+                           android:layout_weight="1"
+                           android:gravity="center"
+                           />
+                       <android.support.v7.widget.AppCompatTextView
+                           android:layout_height="wrap_content"
+                           android:layout_width="match_parent"
+                           android:text="Address"
+                           android:layout_weight="1"
+                           android:textColor="@color/colorAccent"
+                           android:textSize="15sp"
+                           android:textStyle="bold"
+                           android:gravity="center"
+                           />
+                       <android.support.v7.widget.AppCompatTextView
+                           android:layout_height="wrap_content"
+                           android:layout_width="match_parent"
+                           android:text="Mobile No"
+                           android:layout_weight="1"
+                           android:textColor="@color/colorAccent"
+                           android:textSize="15sp"
+                           android:gravity="center"
+                           android:textStyle="bold"
+                           />
+                       <android.support.v7.widget.AppCompatTextView
+                           android:layout_height="wrap_content"
+                           android:layout_width="match_parent"
+                           android:text="Gender"
+                           android:layout_weight="1"
+                           android:gravity="center"
+                           android:textColor="@color/colorAccent"
+                           android:textSize="15sp"
+                           android:textStyle="bold"
+                           />
+
+
+
+                   </TableRow>
+
+                </TableLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/usname"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/add"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mob"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Gender"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+            <ListView
+            android:id="@+id/userlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/colorBlack"
+            android:dividerHeight="1dp"
+                android:visibility="gone"></ListView>
+
+
+    </LinearLayout>
+
+       <!-- </ScrollView>-->
+
+    </LinearLayout>
+
+</LinearLayout>

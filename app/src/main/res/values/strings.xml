@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EMS</string>
+    <string name="ems">Emergency Medical Service</string>
+    <string name="user">User</string>
+    <string name="ushome">User HomePage</string>
+    <string name="uslog">User Login</string>
+    <string name="usname">User Name</string>
+    <string name="usreg">Register User</string>
+    <string name="admin">Admin</string>
+    <string name="adlog">Admin login</string>
+    <string name="responder">Responder</string>
+    <string name="reslog">Responder login</string>
+    <string name="resname">Responder Name</string>
+    <string name="reg">Register</string>
+    <string name="adhome">Admin Home page</string>
+    <string name="resreg">Responder\nregistration</string>
+    <string name="resstatus">View status\nof responder</string>
+    <string name="signin">Sign in</string>
+    <string name="sub">Submit</string>
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="reportin">Report Incidence</string>
+    <string name="gtstatus">Get Status</string>
+    <string name="pass">Password</string>
+    <string name="dead">Dead</string>
+    <string name="hiinj">Highly\nInjured</string>
+    <string name="inj">Injured</string>
+    <string name="mininj">Minor\nInjured</string>
+    <string name="id">ID</string>
+    <string name="add">Address</string>
+    <string name="status">Status</string>
+    <string name="injty">Injury Type</string>
+    <string name="approx">Approx KM and min</string>
+    <string name="viewall">View all\n Requests</string>
+    <string name="viewacc">View accepted\nRequests</string>
+    <string name="viewpen">View Pending Requests</string>
+    <string name="approvreq">Approved Requests</string>
+    <string name="mob">Mobile number</string>
+    <string name="hosp">Hospital Name</string>
+    <string name="imei">IMEI number</string>
+    <string name="driversli">Driving Licence Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+</resources>
