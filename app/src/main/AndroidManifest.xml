@@ -47,9 +47,10 @@
         <activity android:name=".CaptureImage" />
         <activity android:name=".AcceptedRequestActivity"/>
         <activity android:name=".ViewReportData" />
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBajcDErMKe1Js8S4gqzflrwUogAmSA8uI"/>
+<!--        <meta-data-->
+<!--            android:name="com.google.android.geo.API_KEY"-->
+<!--            android:value=/>-->
+<!--         TODO add Maps api key here -->
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
